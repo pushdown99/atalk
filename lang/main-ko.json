@@ -76,7 +76,7 @@
         "sendButton": "전송",
         "title": "채팅",
         "titleWithPolls": "채팅",
-        "you": "당신"
+        "you": "본인"
     },
     "chromeExtensionBanner": {
         "buttonText": "Chrome 확장 프로그램을 설치합니다.",
@@ -608,6 +608,7 @@
         "speakerTime": "접속자 오디오 사용 시간"
     },
     "startupoverlay": {
+        "genericTitle": "회의에는 마이크와 카메라가 필요합니다.",
         "policyText": " ",
         "title": "{{app}}은 마이크와 카메라를 사용해야합니다"
     },
@@ -758,8 +759,12 @@
         "lowDefinition": "저화질",
         "onlyAudioAvailable": "오디오만 사용할 수 있습니다",
         "onlyAudioSupported": "이 브라우저에서는 오디오만 지원합니다",
+        "performanceSettings": "성능설정",
+        "recording": "녹화중",
         "sd": "SD",
-        "standardDefinition": "표준 해상도"
+        "sdTooltip": "SD",
+        "standardDefinition": "표준 해상도",
+        "streaming": "스트리밍 중"
     },
     "videothumbnail": {
         "domute": "음소거",
