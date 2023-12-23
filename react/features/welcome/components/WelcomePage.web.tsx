@@ -239,7 +239,7 @@ class WelcomePage extends AbstractWelcomePage<IProps> {
                                             id = 'enter_room_field'
                                             onChange = { this._onRoomChange }
                                             pattern = { ROOM_NAME_VALIDATE_PATTERN_STR }
-                                            placeholder = { this.state.roomPlaceholder }
+                                            placeholder= {} // { this.state.roomPlaceholder } // hyhwang
                                             ref = { this._setRoomInputRef }
                                             type = 'text'
                                             value = { this.state.room } />

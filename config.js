@@ -684,7 +684,8 @@ var config = {
 
     // Default language for the user interface. Cannot be overwritten.
     // DEPRECATED! Use the `lang` iframe option directly instead.
-    // defaultLanguage: 'en',
+    // defaultLanguage: 'en', // hyhwang
+    defaultLanguage: 'ko',
 
     // Disables profile and the edit of all fields from the profile settings (display name and email)
     // disableProfile: false,
@@ -1193,7 +1194,7 @@ var config = {
     //
     //     // The desktop deeplinking config.
     //     desktop: {
-    //         appName: 'Jitsi Meet'
+    //         appName: 'Atalk'
     //     },
     //     // If true, any checks to handoff to another application will be prevented
     //     // and instead the app will continue to display in the current browser.
@@ -1204,7 +1205,7 @@ var config = {
 
     //     // The ios deeplinking config.
     //     ios: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'Atalk',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
     //         appScheme: 'org.jitsi.meet',
     //         // Custom URL for downloading ios mobile app.
@@ -1220,7 +1221,7 @@ var config = {
 
     //     // The android deeplinking config.
     //     android: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'Atalk',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
     //         appScheme: 'org.jitsi.meet',
     //         // Custom URL for downloading android mobile app.
