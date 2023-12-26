@@ -239,7 +239,7 @@ function getDevServerConfig() {
                 warnings: false
             }
         },
-        host: '192.168.123.187', // 127.0.0.1
+        host: '127.0.0.1', //'10.240.150.90', // 127.0.0.1
         hot: true,
         proxy: {
             '/': {
