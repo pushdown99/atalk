@@ -241,6 +241,7 @@ function getDevServerConfig() {
         },
         host: '127.0.0.1', //'10.240.150.90', // 127.0.0.1
         hot: true,
+        allowedHosts: 'all',
         proxy: {
             '/': {
                 bypass: devServerProxyBypass,
