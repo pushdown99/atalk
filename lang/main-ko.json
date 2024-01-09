@@ -156,7 +156,7 @@
         "noPermission": "허가 거부",
         "previewUnavailable": "미리보기를 사용할 수 없음",
         "selectADevice": "디바이스 선택",
-        "testAudio": "테스트 사운드 재생"
+        "testAudio": "테스트 사운드"
     },
     "dialOut": {
         "statusMessage": "지금은 {{status}}입니다"
