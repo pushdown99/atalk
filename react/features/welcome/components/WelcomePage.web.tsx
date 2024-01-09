@@ -384,22 +384,22 @@ class WelcomePage extends AbstractWelcomePage<IProps> {
                             className = 'welcome-badge'
                             href = { iosDownloadLink }>
                             <img
-                                alt = { t('welcomepage.mobileDownLoadLinkIos') }
+                                alt = { t('ATalkDownLoadLinkIos') }
                                 src = './images/app-store-badge.png' />
                         </a>
                         <a
                             className = 'welcome-badge'
                             href = { androidDownloadLink }>
                             <img
-                                alt = { t('welcomepage.mobileDownLoadLinkAndroid') }
+                                alt = { t('ATalkDownLoadLinkAndroid') }
                                 src = './images/google-play-badge.png' />
                         </a>
                         <a
                             className = 'welcome-badge'
                             href = { fDroidUrl }>
                             <img
-                                alt = { t('welcomepage.mobileDownLoadLinkFDroid') }
-                                src = './images/f-droid-badge.png' />
+                                alt = { t('ATalkDownLoadLinkFDroid') }
+                                src = './images/ATalk-badge.png' />
                         </a>
                     </div>
                 </div>
