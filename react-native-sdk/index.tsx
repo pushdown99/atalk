@@ -49,7 +49,7 @@ interface IAppProps {
 }
 
 /**
- * Main React Native SDK component that displays a Jitsi Meet conference and gets all required params as props
+ * Main React Native SDK component that displays a ATalk conference and gets all required params as props
  */
 export const JitsiMeeting = forwardRef((props: IAppProps, ref) => {
     const [ appProps, setAppProps ] = useState({});
