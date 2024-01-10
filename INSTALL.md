@@ -1,19 +1,35 @@
+## Source
+~~~console
 git clone https://github.com/pushdown99/atalk
 cd atalk
+~~~
+
 tool 설치 (make.exe coreutils.exe)
 
+
+~~~console
 npm install --legacy-peer-deps
 npm audit fix --force
-webpack.config.js <- IP  주소변경
 npm start
-npm install webpack webpack-dev-server --save-dev ?
-npx webpack ?
+~~~
 
-Localization
-/image/watermark.svg
-interface_config.js의 JITSI_WATERMARK_LINK
-lang/main.json의 headerTitle
-react/features/welcome/components/WelcomePage.web.js의 footer 구문 부분 주석
-images/favicon.ico
-title.html 수정, interface_config.js의 APP_NAME 변경
+## Run
+~~~console
+webpack.config.js <- IP  주소변경
+~~~
+
+## Localization
+~~~console
+1. /image/watermark.svg
+2. interface_config.js의 JITSI_WATERMARK_LINK
+3. lang/main.json의 headerTitle
+4. react/features/welcome/components/WelcomePage.web.js의 footer 주석
+5. images/favicon.ico
+6. title.html 수정
+7. interface_config.js의 APP_NAME 변경
+~~~
+
+## Build
+~~~console
 mingw32-make dev
+~~~
